@@ -41,6 +41,19 @@ fun main (args : Array<String>){
     println("Biggest Float is $bigFloat")
     println("Smallest Float is $minFloat\n")
 
+    //Boolean
+
+    if(true is Boolean){
+        print("Boolean is True\n")
+    }
+
+    //Character
+
+    var letterGrade: Char = 'A'
+
+    /**Simple if ${letterGrade is Char} true or false check*/
+    println("A is a Character: ${letterGrade is Char}")
+
 
 
 }
