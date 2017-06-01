@@ -7,11 +7,15 @@ package demo1
 fun main (args : Array<String>){
     println("Hello Kotlin!")
 
-    /** Kotlin auto detects variable type */
+    /**
+     * Kotlin auto detects variable type
+     * */
     var myName = "Riashad"
     var myAge = 26
 
-    /** You can specify Variable type */
+    /**
+     * You can specify Variable type
+     * */
 
     //Integer
     var bigInt :Int = Int.MAX_VALUE
@@ -51,7 +55,9 @@ fun main (args : Array<String>){
 
     var letterGrade: Char = 'A'
 
-    /**Simple if ${letterGrade is Char} true or false check*/
+    /**
+     * Simple if ${letterGrade is Char} true or false check
+     * */
     println("A is a Character: ${letterGrade is Char}")
 
 
